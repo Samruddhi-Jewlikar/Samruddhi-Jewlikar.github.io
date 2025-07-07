@@ -1,7 +1,286 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samruddhi S. Jewlikar - Academic Portfolio</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Samruddhi S. Jewlikar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#research">Research</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#publications">Publications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cv">CV</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6">
+                    <div class="hero-content">
+                        <h1 class="display-4 fw-bold mb-3">Samruddhi S. Jewlikar</h1>
+                        <h2 class="h4 text-muted mb-4">PhD in Biochemistry and Structural Biology</h2>
+                        <p class="lead mb-4">
+                            Specializing in protein engineering, photoreceptor proteins, and unnatural amino acid mutagenesis 
+                            with 6+ years of experience in understanding photochemistry and signal transduction mechanisms.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#research" class="btn btn-primary btn-lg me-3">View My Research</a>
+                            <a href="files/CV_Samruddhi_Jewlikar.pdf" class="btn btn-outline-primary btn-lg" target="_blank">
+                                <i class="fas fa-download me-2"></i>Download CV
+                            </a>
+                        </div>
+                        <div class="social-links mt-4">
+                            <a href="mailto:smrsj1895@gmail.com" class="social-link">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/samruddhijewlikar/" class="social-link">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <div class="hero-image">
+                        <img src="assets/images/profile.jpg" alt="Samruddhi S. Jewlikar" class="img-fluid rounded-circle profile-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="section-title text-center mb-5">About Me</h2>
+                    <div class="about-content">
+                        <p class="lead">
+                            I am a biochemist and structural biologist with extensive experience in protein engineering 
+                            and molecular biology, specifically focusing on photoreceptor proteins and their mechanisms 
+                            of light-induced signal transduction.
+                        </p>
+                        <p>
+                            My doctoral research at Stony Brook University centered on probing the signal transduction 
+                            mechanism of the blue light-activated adenylate cyclase OaPAC using unnatural amino acid 
+                            mutagenesis. This work has contributed to understanding how ultrafast light-induced changes 
+                            in protein structure lead to enzyme activation.
+                        </p>
+                        <p>
+                            I am passionate about leveraging innovative molecular techniques to gain mechanistic insights 
+                            into complex biological systems, with particular expertise in protein purification, 
+                            characterization, and structural analysis using techniques such as X-ray crystallography 
+                            and various spectroscopic methods.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Section -->
+    <section id="research" class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Research Areas</h2>
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="research-card h-100">
+                        <div class="research-icon">
+                            <i class="fas fa-microscope"></i>
+                        </div>
+                        <h4>Protein Engineering</h4>
+                        <p>
+                            Utilizing unnatural amino acid mutagenesis to engineer proteins with modified properties 
+                            and to understand structure-function relationships in photoreceptor proteins.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="research-card h-100">
+                        <div class="research-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h4>Photochemistry & Signal Transduction</h4>
+                        <p>
+                            Investigating how blue light activation triggers structural changes in BLUF photoreceptors 
+                            and how these changes propagate to activate downstream enzymatic functions.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="research-card h-100">
+                        <div class="research-icon">
+                            <i class="fas fa-cube"></i>
+                        </div>
+                        <h4>Structural Biology</h4>
+                        <p>
+                            Employing X-ray crystallography, spectroscopy, and biophysical techniques to determine 
+                            protein structures and understand conformational dynamics at atomic resolution.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Publications</h2>
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <div class="publication-item">
+                        <h5>Probing the Signal Transduction Mechanism of the Light-Activated Adenylate Cyclase OaPAC Using Unnatural Amino Acid Mutagenesis</h5>
+                        <p class="text-muted">
+                            <strong>Jewlikar, S. S.</strong>, Tolentino Collado, J., Ali, M. I., Sabbah, A., He, Y., Iuliano, J. N., Hall, C. R., Adamczyk, K., Greetham, G. M., Lukacs, A., Meech, S. R., & Tonge, P. J. (2025). 
+                            <em>ACS Chemical Biology</em>.
+                        </p>
+                        <div class="publication-links">
+                            <a href="files/Publication_ACS_ChemBio.pdf" class="btn btn-sm btn-outline-primary" target="_blank">
+                                <i class="fas fa-file-pdf me-1"></i>PDF
+                            </a>
+                            <a href="#" class="btn btn-sm btn-outline-secondary">
+                                <i class="fas fa-quote-right me-1"></i>Cite
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="publication-item">
+                        <h5>Unraveling the Photoactivation Mechanism of a Light-Activated Adenylyl Cyclase Using Ultrafast Spectroscopy Coupled with Unnatural Amino Acid Mutagenesis</h5>
+                        <p class="text-muted">
+                            Tolentino Collado, J., Iuliano, J. N., Pirisi, K., <strong>Jewlikar, S.</strong>, Adamczyk, K., Greetham, G. M., Towrie, M., Tame, J. R., Meech, S. R., Tonge, P. J., & Lukacs, A. (2022). 
+                            <em>ACS Chemical Biology</em>, 17(9), 2643-2654.
+                        </p>
+                        <div class="publication-links">
+                            <a href="https://doi.org/10.1021/acschembio.2c00575" class="btn btn-sm btn-outline-primary" target="_blank">
+                                <i class="fas fa-external-link-alt me-1"></i>DOI
+                            </a>
+                            <a href="#" class="btn btn-sm btn-outline-secondary">
+                                <i class="fas fa-quote-right me-1"></i>Cite
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CV Section -->
+    <section id="cv" class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Curriculum Vitae</h2>
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <p class="lead mb-4">
+                        Download my complete curriculum vitae for detailed information about my education, 
+                        research experience, publications, and technical skills.
+                    </p>
+                    <a href="files/CV_Samruddhi_Jewlikar.pdf" class="btn btn-primary btn-lg" target="_blank">
+                        <i class="fas fa-download me-2"></i>Download Full CV
+                    </a>
+                    <div class="mt-4">
+                        <a href="files/Thesis_Samruddhi_Jewlikar.pdf" class="btn btn-outline-primary" target="_blank">
+                            <i class="fas fa-graduation-cap me-2"></i>View PhD Thesis
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-dark text-white">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Contact</h2>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="row">
+                        <div class="col-md-6 mb-4">
+                            <div class="contact-item text-center">
+                                <i class="fas fa-envelope fa-2x mb-3"></i>
+                                <h5>Email</h5>
+                                <p>samruddhi.jewlikar@example.com</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <div class="contact-item text-center">
+                                <i class="fas fa-map-marker-alt fa-2x mb-3"></i>
+                                <h5>Location</h5>
+                                <p>Stony Brook, NY</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div class="social-links">
+                            <a href="mailto:samruddhi.jewlikar@example.com" class="social-link me-3">
+                                <i class="fas fa-envelope fa-lg"></i>
+                            </a>
+                            <a href="https://linkedin.com/in/samruddhi-jewlikar" class="social-link me-3">
+                                <i class="fab fa-linkedin fa-lg"></i>
+                            </a>
+                            <a href="https://github.com/samruddhi-jewlikar" class="social-link me-3">
+                                <i class="fab fa-github fa-lg"></i>
+                            </a>
+                            <a href="https://orcid.org/0000-0000-0000-0000" class="social-link">
+                                <i class="fab fa-orcid fa-lg"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 bg-light text-center">
+        <div class="container">
+            <p class="text-muted mb-0">
+                &copy; 2025 Samruddhi S. Jewlikar. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/main.js"></script>
 </body>
-<html>
+</html>
